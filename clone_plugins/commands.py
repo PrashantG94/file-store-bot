@@ -83,7 +83,7 @@ async def start(client, message):
                 )
             filetype = msg.media
             file = getattr(msg, filetype.value)
-            title = '@aapna_Movies  ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), file.file_name.split()))
+            title = '@Damboy94  ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), file.file_name.split()))
             size=get_size(file.file_size)
             f_caption = f"<code>{title}</code>"
             if CUSTOM_FILE_CAPTION:
@@ -92,10 +92,10 @@ async def start(client, message):
                 except:
                     return
             await msg.edit_caption(f_caption)
-            k = await msg.reply(f"<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie File/Video will be deleted in <b><u>{AUTO_DELETE} mins</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this File/Video to your Saved Messages and Start Download there you want again [Get Here](https://t.me/aapna_Movies) </i></b>",quote=True)
+            k = await msg.reply(f"<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie File/Video will be deleted in <b><u>{AUTO_DELETE} mins</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this File/Video to your Saved Messages and Start Download there you want again [Get Here](https://t.me/Damboyisowner) </i></b>",quote=True)
             await asyncio.sleep(AUTO_DELETE_TIME)
             await msg.delete()
-            await k.edit_text("<b>Your File/Video is successfully deleted!!! you want again [Get Here](https://t.me/aapna_Movies) </b>")
+            await k.edit_text("<b>Your File/Video is successfully deleted!!! you want again [Get Here](https://https://t.me/Damboyisowner) </b>")
 
             return
         except:
@@ -171,7 +171,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.delete()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('💝 sᴜʙsᴄʀɪʙᴇ ᴍʏ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ', url='https://youtube.com/@sastamarvel01?si=JmIkr6a16LRXUaIe')
+            InlineKeyboardButton('💝 𝐌𝐲 𝐭𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐜𝐡𝐚𝐧𝐧𝐞𝐥 ', url='https://t.me/Damboyisowner')
             ],[
             InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', url=f'https://t.me/{BOT_USERNAME}?start=clone')
             ],[
