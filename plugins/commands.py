@@ -53,12 +53,12 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton( '💝 sᴜʙsᴄʀɪʙᴇ ᴍʏ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ', url='https://youtube.com/@sastamarvel01?si=KiYYZ5mByFO-O_fl')
+            InlineKeyboardButton( '💝 Jᴏɪɴ Tᴇʟᴇɢʀᴀᴍ Cʜᴀɴɴᴇʟ', url='https://t.me/Damboyisowner')
             ],[
-            InlineKeyboardButton( '💝 movies ', url='https://t.me/+ccx-5xVHyro3ZjNl')
+            InlineKeyboardButton( '💝 Jᴏɪɴ Dɪsᴄᴜssɪᴏɴ ', url='https://t.me/chill_bros_top')
             ],[
-            InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/+ccx-5xVHyro3ZjNl'),
-            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/aapna_Movies')
+            InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/chill_bros_top'),
+            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/chill_bros_top')
             ],[
             InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')
             ],[
@@ -222,7 +222,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                         InlineKeyboardButton('🚀 New Anime Update🖥️', url="https://t.me/group_discd")]
+                         InlineKeyboardButton('🚀 New Anime Update🖥️', url="https://t.me/Damboyisowner")]
                     ]
                 )
             ) 
@@ -324,12 +324,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton( '💝 sᴜʙsᴄʀɪʙᴇ ᴍʏ ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ', url='https://youtube.com/@sastamarvel01?si=KiYYZ5mByFO-O_fl')
+            InlineKeyboardButton( '💝 Jᴏɪɴ Tᴇʟᴇɢʀᴀᴍ Cʜᴀɴɴᴇʟ', url='https://t.me/Damboyisowner')
             ],[
-            InlineKeyboardButton( '💝 movies ', url='https://t.me/+ccx-5xVHyro3ZjNl')
+            InlineKeyboardButton( '💝 Jᴏɪɴ Dɪsᴄᴜssɪᴏɴ ', url='https://t.me/chill_bros_top')
             ],[
-            InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/+ccx-5xVHyro3ZjNl'),
-            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/aapna_Movies')
+            InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/chill_bros_top'),
+            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/chill_bros_top')
             ],[
             InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')
             ],[
@@ -432,7 +432,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                                                 [
                                                     InlineKeyboardButton('🖥️ Watch online 🖥️', url= stream)],  # web stream Link
                                                [
-                                                    InlineKeyboardButton('📁 Want File again ', url='https://t.me/aapna_Movies')],
+                                                    InlineKeyboardButton('📁 Want File again ', url='https://t.me/Damboyisowner')],
                                                [
                                                     InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/+ccx-5xVHyro3ZjNl')]
                                                   ]
