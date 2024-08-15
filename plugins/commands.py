@@ -58,7 +58,7 @@ async def start(client, message):
             InlineKeyboardButton( '💝 Jᴏɪɴ Dɪsᴄᴜssɪᴏɴ ', url='https://t.me/chill_bros_top')
             ],[
             InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/chill_bros_top'),
-            InlineKeyboardButton('🖥️ Cᴏɴᴛᴀᴄᴛ Mᴇ', url='@Damboy94')
+            InlineKeyboardButton('🖥️ Cᴏɴᴛᴀᴄᴛ Us', url='https://t.me/chill_bros_top')
             ],[
             InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')
             ],[
