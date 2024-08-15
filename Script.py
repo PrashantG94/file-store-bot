@@ -39,9 +39,9 @@ Cᴜʀʀᴇɴᴛ Sʜᴏʀᴛᴇɴᴇʀ API:</b> `{shortener_api}`"""
 
 📚 ʟɪʙʀᴀʀʏ: <a href=https://docs.pyrogram.org>𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦</a>
 
-🧑🏻‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ: <a href=https://t.me/Damboyisowner>𝐓𝐞𝐜𝐡  </a>
+🧑🏻‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ: <a href=@Damboy94>𝐓𝐞𝐜𝐡  </a>
 
-👥 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ: <a href=https://t.me/+ccx-5xVHyro3ZjNl> 𝐒𝐮𝐩𝐩𝐨𝐫𝐭</a>
+👥 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ: <a href=https://t.me/chill_bros_top> 𝐒𝐮𝐩𝐩𝐨𝐫𝐭</a>
 
 📢 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ: <a href=https://t.me/chill_bros_top> 𝐔𝐩𝐝𝐚𝐭𝐞</a></b>
 """
