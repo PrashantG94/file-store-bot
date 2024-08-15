@@ -230,7 +230,7 @@ async def start(client, message):
             await asyncio.sleep(AUTO_DELETE_TIME)
             await msg.delete()
             await g.delete()
-            await k.edit_text("<b>Your File/Video is successfully deleted!!! You Want Again [Get Here](https://t.me/aapna_Movies).</b>")
+            await k.edit_text("<b>Your File/Video is successfully deleted!!! You Want Again [Get Here](https://t.me/Damboyisowner).</b>")
             await m.edit_text("<b>❤️‍🔥.</b>")
             await asyncio.sleep(1)
             await m.delete()
