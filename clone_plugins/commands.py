@@ -50,7 +50,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('💝 Jᴏɪɴ Tᴇʟᴇɢʀᴀᴍ Cʜᴀɴɴᴇʟ  ', url='https://t.me/Damboyisowner')
             ],[
-            InlineKeyboardButton('🤖 Msɢ ᴍᴇ ғᴏʀ ᴄʟᴏɴᴇ ʙᴏᴛ', url=f'@Damboy94')
+            InlineKeyboardButton('🤖 Msɢ ᴍᴇ ғᴏʀ ᴄʟᴏɴᴇ ʙᴏᴛ', url=f'https://t.me/chill_bros_top')
             ],[
             InlineKeyboardButton('💁‍♀️ ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ 🔻', callback_data='about')
@@ -173,7 +173,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('💝 Jᴏɪɴ Tᴇʟᴇɢʀᴀᴍ Cʜᴀɴɴᴇʟ ', url='https://t.me/Damboyisowner')
             ],[
-            InlineKeyboardButton('🤖 Msɢ ᴍᴇ ғᴏʀ ᴄʟᴏɴᴇ ʙᴏᴛ ', url=f'@Damboy94')
+            InlineKeyboardButton('🤖 Msɢ ᴍᴇ ғᴏʀ ᴄʟᴏɴᴇ ʙᴏᴛ ', url=f'https://t.me/chill_bros_top)
             ],[
             InlineKeyboardButton('💁‍♀️ ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ 🔻', callback_data='about')
